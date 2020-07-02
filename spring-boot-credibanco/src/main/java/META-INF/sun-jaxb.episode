@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.07.02 a las 11:32:51 AM COT 
+
+  -->
+  <bindings xmlns:tns="http://ws.checkout.credibanco.pharos.com/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.spring.boot.credibanco.soapWs"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:activateCard">
+      <class ref="com.spring.boot.credibanco.soapWs.ActivateCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ActivateCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateSession">
+      <class ref="com.spring.boot.credibanco.soapWs.ActivateSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateSessionResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ActivateSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateuser">
+      <class ref="com.spring.boot.credibanco.soapWs.Activateuser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateuserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ActivateuserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addAudit">
+      <class ref="com.spring.boot.credibanco.soapWs.AddAudit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addAuditResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.AddAuditResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addCard">
+      <class ref="com.spring.boot.credibanco.soapWs.AddCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.AddCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addFirstCard">
+      <class ref="com.spring.boot.credibanco.soapWs.AddFirstCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addFirstCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.AddFirstCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:authenticateUser">
+      <class ref="com.spring.boot.credibanco.soapWs.AuthenticateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:authenticateUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.AuthenticateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:changePassword">
+      <class ref="com.spring.boot.credibanco.soapWs.ChangePassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:changePasswordResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ChangePasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:completeUser">
+      <class ref="com.spring.boot.credibanco.soapWs.CompleteUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:completeUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.CompleteUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCertificate">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCertificateResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCommerce">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCommerceResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createUser">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.CreateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCard">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCertificate">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCertificateResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCommerce">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCommerceResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUser">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserSession">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteUserSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserSessionResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.DeleteUserSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCertificate">
+      <class ref="com.spring.boot.credibanco.soapWs.EditCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCertificateResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.EditCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCommerce">
+      <class ref="com.spring.boot.credibanco.soapWs.EditCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCommerceResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.EditCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findAllCertificates">
+      <class ref="com.spring.boot.credibanco.soapWs.FindAllCertificates"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findAllCertificatesResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.FindAllCertificatesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findCertificateByCodCommerce">
+      <class ref="com.spring.boot.credibanco.soapWs.FindCertificateByCodCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findCertificateByCodCommerceResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.FindCertificateByCodCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAudit">
+      <class ref="com.spring.boot.credibanco.soapWs.GetAudit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditActions">
+      <class ref="com.spring.boot.credibanco.soapWs.GetAuditActions"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditActionsResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetAuditActionsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetAuditResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCiudadesDane">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCiudadesDane"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCiudadesDaneResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCiudadesDaneResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerce">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceApiToken">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCommerceApiToken"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceApiTokenResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCommerceApiTokenResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFaqList">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFaqList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFaqListResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFaqListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFavoriteCard">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFavoriteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFavoriteCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFavoriteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFranchiseByBinRange">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFranchiseByBinRange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFranchiseByBinRangeResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetFranchiseByBinRangeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getParameterByName">
+      <class ref="com.spring.boot.credibanco.soapWs.GetParameterByName"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getParameterByNameResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetParameterByNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getRestoreSession">
+      <class ref="com.spring.boot.credibanco.soapWs.GetRestoreSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getRestoreSessionResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetRestoreSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUser">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserByDoc">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUserByDoc"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserByDocResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUserByDocResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserCards">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUserCards"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserCardsResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUserCardsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.GetUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pay">
+      <class ref="com.spring.boot.credibanco.soapWs.Pay"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:payResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.PayResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:postPago">
+      <class ref="com.spring.boot.credibanco.soapWs.PostPago"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:postPagoResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.PostPagoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreLinkPassword">
+      <class ref="com.spring.boot.credibanco.soapWs.RestoreLinkPassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreLinkPasswordResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.RestoreLinkPasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restorePassword">
+      <class ref="com.spring.boot.credibanco.soapWs.RestorePassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restorePasswordResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.RestorePasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendCreateEmail">
+      <class ref="com.spring.boot.credibanco.soapWs.SendCreateEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendCreateEmailResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SendCreateEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPEmail">
+      <class ref="com.spring.boot.credibanco.soapWs.SendOTPEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPEmailResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SendOTPEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPLoginEmail">
+      <class ref="com.spring.boot.credibanco.soapWs.SendOTPLoginEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPLoginEmailResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SendOTPLoginEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setCard2Receive">
+      <class ref="com.spring.boot.credibanco.soapWs.SetCard2Receive"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setCard2ReceiveResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SetCard2ReceiveResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setFavoriteCard">
+      <class ref="com.spring.boot.credibanco.soapWs.SetFavoriteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setFavoriteCardResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SetFavoriteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTP">
+      <class ref="com.spring.boot.credibanco.soapWs.SetOTP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPLogin">
+      <class ref="com.spring.boot.credibanco.soapWs.SetOTPLogin"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPLoginResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SetOTPLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.SetOTPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateCardAlias">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateCardAlias"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateCardAliasResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateCardAliasResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateRegisterDate">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateRegisterDate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateRegisterDateResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateRegisterDateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateTrx">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateTrx"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateTrxResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateTrxResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateUserData">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateUserData"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateUserDataResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.UpdateUserDataResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validSession">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validSessionResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTP">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateOTP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPLogin">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateOTPLogin"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPLoginResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateOTPLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateOTPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateUser">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateUserResponse">
+      <class ref="com.spring.boot.credibanco.soapWs.ValidateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Exception">
+      <class ref="com.spring.boot.credibanco.soapWs.Exception"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:response">
+      <class ref="com.spring.boot.credibanco.soapWs.Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:responseRestore">
+      <class ref="com.spring.boot.credibanco.soapWs.ResponseRestore"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:certificates">
+      <class ref="com.spring.boot.credibanco.soapWs.Certificates"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:user">
+      <class ref="com.spring.boot.credibanco.soapWs.User"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:audit">
+      <class ref="com.spring.boot.credibanco.soapWs.Audit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:userCard">
+      <class ref="com.spring.boot.credibanco.soapWs.UserCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreSession">
+      <class ref="com.spring.boot.credibanco.soapWs.RestoreSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:posPago">
+      <class ref="com.spring.boot.credibanco.soapWs.PosPago"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:binesRange">
+      <class ref="com.spring.boot.credibanco.soapWs.BinesRange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:faq">
+      <class ref="com.spring.boot.credibanco.soapWs.Faq"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parameter">
+      <class ref="com.spring.boot.credibanco.soapWs.Parameter"/>
+    </bindings>
+  </bindings>
+</bindings>
